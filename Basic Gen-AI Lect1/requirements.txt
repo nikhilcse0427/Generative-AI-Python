@@ -1,0 +1,13 @@
+langchain>=0.3.27
+langchain-openai>=0.3.30
+langchain-groq>=0.3.7
+langchain-google-genai>=2.1.10
+langchain-mistralai>=0.2.11
+
+openai>=1.100.0
+groq>=0.31.0
+google-generativeai>=0.8.5
+mistralai>=1.9.0
+
+python-dotenv>=1.1.0
+requests>=2.32.0
