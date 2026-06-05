@@ -1,0 +1,102 @@
+# ============================================================
+#  RAG (Retrieval-Augmented Generation) Project Dependencies
+# ============================================================
+
+# ----------------------------
+# LLM & AI Frameworks
+# ----------------------------
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-core>=0.2.0
+langchain-openai>=0.1.0          # Use if OpenAI is your LLM provider
+langchain-anthropic>=0.1.0       # Use if Anthropic/Claude is your LLM provider
+langchain-google-genai>=1.0.0    # Use if Google Gemini is your LLM provider
+openai>=1.30.0                   # OpenAI API client
+anthropic>=0.28.0                # Anthropic API client
+
+# ----------------------------
+# Vector Stores / Databases
+# ----------------------------
+faiss-cpu>=1.8.0                 # Facebook AI Similarity Search (CPU version)
+# faiss-gpu>=1.8.0               # Use instead of faiss-cpu if you have a GPU
+chromadb>=0.5.0                  # Chroma vector database
+pinecone-client>=3.0.0           # Pinecone vector database (cloud)
+qdrant-client>=1.9.0             # Qdrant vector database
+weaviate-client>=4.6.0           # Weaviate vector database
+
+# ----------------------------
+# Embeddings
+# ----------------------------
+sentence-transformers>=3.0.0     # Local sentence/text embeddings (HuggingFace)
+tiktoken>=0.7.0                  # Token counting for OpenAI models
+transformers>=4.40.0             # HuggingFace Transformers
+torch>=2.3.0                     # PyTorch (required by transformers & sentence-transformers)
+
+# ----------------------------
+# Document Loaders & Parsers
+# ----------------------------
+pypdf>=4.2.0                     # PDF reading and parsing
+pymupdf>=1.24.0                  # Fast PDF parsing (fitz)
+python-docx>=1.1.0               # Word (.docx) document loader
+unstructured>=0.14.0             # Multi-format document parser (PDF, HTML, DOCX, etc.)
+beautifulsoup4>=4.12.0           # HTML/XML parsing
+lxml>=5.2.0                      # XML and HTML processing
+markdown>=3.6                    # Markdown file parsing
+openpyxl>=3.1.0                  # Excel (.xlsx) file support
+
+# ----------------------------
+# Text Splitting & Processing
+# ----------------------------
+nltk>=3.8.1                      # Natural Language Toolkit
+spacy>=3.7.0                     # NLP library for text processing
+regex>=2024.5.0                  # Advanced regular expressions
+
+# ----------------------------
+# Web Scraping & Data Loading
+# ----------------------------
+requests>=2.32.0                 # HTTP requests
+httpx>=0.27.0                    # Async HTTP client
+aiohttp>=3.9.0                   # Async HTTP framework
+playwright>=1.44.0               # Browser automation for web scraping
+selenium>=4.21.0                 # Browser automation (alternative)
+
+# ----------------------------
+# Data Handling
+# ----------------------------
+numpy>=1.26.0                    # Numerical computing
+pandas>=2.2.0                    # Data manipulation
+datasets>=2.19.0                 # HuggingFace Datasets
+
+# ----------------------------
+# API & Web Framework (for serving your RAG app)
+# ----------------------------
+fastapi>=0.111.0                 # Fast REST API framework
+uvicorn>=0.30.0                  # ASGI server for FastAPI
+pydantic>=2.7.0                  # Data validation
+streamlit>=1.35.0                # Quick UI for RAG demo apps
+gradio>=4.36.0                   # Alternative UI framework
+
+# ----------------------------
+# Caching & Storage
+# ----------------------------
+redis>=5.0.0                     # Redis client for caching
+sqlalchemy>=2.0.0                # SQL ORM
+pymongo>=4.7.0                   # MongoDB client
+
+# ----------------------------
+# Observability & Tracing
+# ----------------------------
+langsmith>=0.1.70                # LangChain tracing and evaluation
+opentelemetry-sdk>=1.25.0        # OpenTelemetry for observability
+
+# ----------------------------
+# Environment & Config
+# ----------------------------
+python-dotenv>=1.0.1             # Load environment variables from .env
+pyyaml>=6.0.1                    # YAML config files
+
+# ----------------------------
+# Testing
+# ----------------------------
+pytest>=8.2.0                    # Testing framework
+pytest-asyncio>=0.23.0           # Async test support

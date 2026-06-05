@@ -1,0 +1,29 @@
+Here's a 500-word text you can save as `notes.txt` for your RAG project:
+
+---
+
+**Artificial Intelligence: Transforming the Modern World**
+
+Artificial Intelligence (AI) is one of the most transformative technologies of the 21st century. From virtual assistants on smartphones to self-driving cars on highways, AI is reshaping how humans live, work, and interact with the world around them. Understanding AI — its capabilities, limitations, and ethical implications — has become essential knowledge for everyone in the modern age.
+
+At its core, AI refers to the ability of machines to perform tasks that would normally require human intelligence. These tasks include recognizing speech, understanding language, making decisions, solving problems, and even creating art. Modern AI systems are powered by machine learning, a technique where algorithms learn patterns from large amounts of data rather than being explicitly programmed with rules.
+
+One of the most significant breakthroughs in AI is deep learning, which uses artificial neural networks inspired by the human brain. Deep learning has enabled remarkable achievements such as image recognition, language translation, and medical diagnosis. Systems like ChatGPT, Gemini, and Claude can hold intelligent conversations, write essays, generate code, and answer complex questions with impressive accuracy.
+
+AI is having a profound impact across nearly every industry. In healthcare, AI models can detect diseases like cancer from medical scans faster and more accurately than human doctors in some cases. In finance, AI algorithms analyze market trends and execute trades in milliseconds. In education, personalized AI tutors adapt to each student's learning pace and style, making quality education more accessible worldwide.
+
+The transportation industry is also being revolutionized. Self-driving vehicles from companies like Tesla and Waymo use AI to navigate roads, avoid obstacles, and make real-time decisions. In agriculture, AI-powered drones monitor crop health, optimize irrigation, and predict harvest yields, helping farmers produce more food with fewer resources.
+
+Despite its many benefits, AI raises serious ethical concerns. One major issue is bias — AI systems trained on biased data can produce discriminatory outcomes in areas like hiring, lending, and criminal justice. Privacy is another concern, as AI-powered surveillance systems can track individuals without their knowledge or consent. The rise of deepfakes, which use AI to create realistic but fake videos and images, poses threats to truth and trust in media.
+
+Perhaps the most debated topic is the impact of AI on employment. While AI automates repetitive tasks and increases efficiency, it also displaces workers in manufacturing, customer service, and data entry. However, history shows that technological revolutions also create new jobs and industries that were previously unimaginable.
+
+The future of AI holds enormous promise. Researchers are working toward Artificial General Intelligence (AGI) — a system that can perform any intellectual task a human can. While AGI remains theoretical, advances in AI are accelerating at an unprecedented pace.
+
+Responsible development of AI requires collaboration between governments, technology companies, researchers, and society at large. Clear regulations, transparent algorithms, and inclusive design are essential to ensure that AI benefits all of humanity, not just a privileged few.
+
+AI is not the future — it is the present. Embracing it thoughtfully and ethically is the challenge of our generation.
+
+---
+
+Save this as `notes.txt` in your RAG project folder and your `TextLoader` will load it perfectly!
