@@ -1,1 +1,38 @@
-.venvRAG/.env
+# Python virtual environments
+.venv/
+venv/
+RAG/.venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+RAG/.env
+
+# OS files
+Thumbs.db
+
+# Project-specific
+*.log
+.coverage
+htmlcov/
+
+# Bare git repositories (should never be tracked)
+*.git/
+Gnenerative-AI.git/
